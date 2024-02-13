@@ -6,7 +6,8 @@ struct node{
 	struct node *left, *right;
 };
 
-struct node *create(){
+struct node *create()//first function
+{
 	int x;
 	struct node *newnode;
 	newnode = new node;
@@ -72,5 +73,5 @@ int main(){
 	
 	cout << "Postorder traversal: ";
 	Postorder(root);
-	
+
 }
