@@ -24,7 +24,9 @@ struct node *create()//first function
 	return newnode;
 }
 
-void preorder(struct node *r){
+void preorder(struct node *r)//second function
+{
+	
 	if(r==NULL){
  		cout <<"-";
 	}
